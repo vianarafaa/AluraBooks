@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@700&display=swap');
+@import url('header.css');
+@import url('banner.css');
+@import url('carrossel.css');
+@import url('topicos.css');
+@import url('contato.css');
+@import url('rodape.css');
+input[type=search]::-webkit-search-cancel-button,
+input[type=search]::-webkit-search-decoration,
+input[type=search]::-webkit-search-results-button,
+input[type=search]::-webkit-search-results-decoration {
+  -webkit-appearance:none;
+}
+
+:root {
+    --cor-de-fundo: #EBECEE;
+    --branco: #FFFFFF;
+    --cor-titulo: #EB9B00;
+    --azul-degrade: linear-gradient(97.54deg, #002F52 35.49%, #326589 165.37%);
+    --azul-normal: #002F52;
+    --preto: #000000;
+    --cinza: #858585;
+    --cinza-escuro: #474646;
+
+    --fonte-primaria: 'Poppins', sans-serif;
+    --fonte-secundaria: 'Josefin Sans', sans-serif;
+}
+
+body {
+    background-color: var(--cor-de-fundo);
+    font-family: var(--fonte-primaria);
+    font-size: 1rem;
+    font-weight: 400;
+}
